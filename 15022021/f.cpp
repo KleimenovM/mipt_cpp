@@ -12,7 +12,7 @@ int* my_slightly_dumb_reallocation(int *source, unsigned int n_old, unsigned int
     int *a = new int [n_new]; // создали память под новый массив длиной n_new
 
     if (source != nullptr) {
-        for (int i = 0; i < n_old; i++) { // заполнили новый массив
+        for (int i = 0; i < n_new; i++) { // заполнили новый массив
             if (i == n_old)
                 break;
             a[i] = source[i];

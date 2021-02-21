@@ -8,7 +8,7 @@ int* my_slightly_dumb_reallocation(int *source, unsigned int n_old, unsigned int
 
     if (source != nullptr) {
         for (int i = 0; i < n_old; i++) { // заполнили новый массив
-            if (i == n_old)
+            if (i == n_new)
                 break;
             a[i] = source[i];
         }

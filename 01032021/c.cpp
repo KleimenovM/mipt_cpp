@@ -62,15 +62,14 @@ int main() {
                     cur_star = cur_star->next;
                 next_dwarf->next = cur_star->next;
                 cur_star->next = next_dwarf;
-            } else if (symbol == "+"){
+            } else if (symbol == "+") {
                 Dwarf *cur_plus = first;
                 // here we add a dwarf to the end of the line
-                for (int j = 0; j < line_length - 1; j++)
+                for (int j = 0; j < line_length - 2; j++)
                     cur_plus = cur_plus->next;
                 cur_plus->next = next_dwarf;
-
-                line_length++;
             }
+            line_length++;
         }
     }
 

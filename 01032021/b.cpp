@@ -16,6 +16,8 @@ int main(){
 
     std::cin >> val;
 
+    std::string cur_token;
+
     while (true) {
         if (val != "+" && val != "*" && val != "-" && val != "/") {
             if (std::stoi(val) == 0)

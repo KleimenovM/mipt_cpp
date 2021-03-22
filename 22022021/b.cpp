@@ -22,7 +22,7 @@ int main() {
         if (symbol == "-") {
             auto *new_mem = new Dwarf;
             // "delete" one dwarf
-            line_length--;
+            line_length -= 1;
             new_mem->num = first->num;
             new_mem->next = nullptr;
             if (memory == nullptr) {

@@ -1,0 +1,3 @@
+G:/My Drive/MIPT LPR 2 semester/mipt_cpp/01032021/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_00277.dir
+G:/My Drive/MIPT LPR 2 semester/mipt_cpp/01032021/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
+G:/My Drive/MIPT LPR 2 semester/mipt_cpp/01032021/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir

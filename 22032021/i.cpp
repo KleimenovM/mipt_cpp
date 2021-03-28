@@ -52,7 +52,7 @@ void List::shrink() {
 }
 
 void List::sort() {
-    this->shrink();
+    this->shrink(); /* recreate to normal size */
     for (int i = 0; i < this->size; i++) {
         for (int j = i; j < this->size; j++) {
             if (this->content[i] > this->content[j]){

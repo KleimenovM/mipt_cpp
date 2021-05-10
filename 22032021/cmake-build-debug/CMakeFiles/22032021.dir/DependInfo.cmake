@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/My Drive/MIPT LPR 2 semester/mipt_cpp/22032021/a.cpp" "G:/My Drive/MIPT LPR 2 semester/mipt_cpp/22032021/cmake-build-debug/CMakeFiles/22032021.dir/a.cpp.obj"
+  "G:/My Drive/MIPT LPR 2 semester/mipt_cpp/22032021/i.cpp" "G:/My Drive/MIPT LPR 2 semester/mipt_cpp/22032021/cmake-build-debug/CMakeFiles/22032021.dir/i.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

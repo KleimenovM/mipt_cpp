@@ -76,27 +76,27 @@ include CMakeFiles/22032021.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/22032021.dir/flags.make
 
-CMakeFiles/22032021.dir/a.cpp.obj: CMakeFiles/22032021.dir/flags.make
-CMakeFiles/22032021.dir/a.cpp.obj: ../a.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\My Drive\MIPT LPR 2 semester\mipt_cpp\22032021\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/22032021.dir/a.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\22032021.dir\a.cpp.obj -c "G:\My Drive\MIPT LPR 2 semester\mipt_cpp\22032021\a.cpp"
+CMakeFiles/22032021.dir/i.cpp.obj: CMakeFiles/22032021.dir/flags.make
+CMakeFiles/22032021.dir/i.cpp.obj: ../i.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\My Drive\MIPT LPR 2 semester\mipt_cpp\22032021\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/22032021.dir/i.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\22032021.dir\i.cpp.obj -c "G:\My Drive\MIPT LPR 2 semester\mipt_cpp\22032021\i.cpp"
 
-CMakeFiles/22032021.dir/a.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/22032021.dir/a.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\My Drive\MIPT LPR 2 semester\mipt_cpp\22032021\a.cpp" > CMakeFiles\22032021.dir\a.cpp.i
+CMakeFiles/22032021.dir/i.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/22032021.dir/i.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\My Drive\MIPT LPR 2 semester\mipt_cpp\22032021\i.cpp" > CMakeFiles\22032021.dir\i.cpp.i
 
-CMakeFiles/22032021.dir/a.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/22032021.dir/a.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\My Drive\MIPT LPR 2 semester\mipt_cpp\22032021\a.cpp" -o CMakeFiles\22032021.dir\a.cpp.s
+CMakeFiles/22032021.dir/i.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/22032021.dir/i.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\My Drive\MIPT LPR 2 semester\mipt_cpp\22032021\i.cpp" -o CMakeFiles\22032021.dir\i.cpp.s
 
 # Object files for target 22032021
 22032021_OBJECTS = \
-"CMakeFiles/22032021.dir/a.cpp.obj"
+"CMakeFiles/22032021.dir/i.cpp.obj"
 
 # External object files for target 22032021
 22032021_EXTERNAL_OBJECTS =
 
-22032021.exe: CMakeFiles/22032021.dir/a.cpp.obj
+22032021.exe: CMakeFiles/22032021.dir/i.cpp.obj
 22032021.exe: CMakeFiles/22032021.dir/build.make
 22032021.exe: CMakeFiles/22032021.dir/linklibs.rsp
 22032021.exe: CMakeFiles/22032021.dir/objects1.rsp

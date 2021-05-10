@@ -65,18 +65,19 @@ void List::sort() {
 }
 
 int main(){
-    int cur_token;
+    std::string cur_token;
+    int num;
     List odd, even;
 
-    std::cin >> cur_token;
+    // std::cin >> cur_token;
 
-    while (cur_token != 0) {
-        if (cur_token % 2 == 0)
-            even.get_new_one(cur_token);
+    while (std::cin >> cur_token) {
+        num = std::stoi(cur_token);
+
+        if (num % 2 == 0)
+            even.get_new_one(num);
         else
-            odd.get_new_one(cur_token);
-
-        std::cin >> cur_token;
+            odd.get_new_one(num);
     }
 
     for (int i = 0; i < even.size; i++)

@@ -142,32 +142,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\22032021.dir\build.make CMakeFiles/22032021.dir/build
 .PHONY : 22032021/fast
 
-a.obj: a.cpp.obj
+i.obj: i.cpp.obj
 
-.PHONY : a.obj
+.PHONY : i.obj
 
 # target to build an object file
-a.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\22032021.dir\build.make CMakeFiles/22032021.dir/a.cpp.obj
-.PHONY : a.cpp.obj
+i.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\22032021.dir\build.make CMakeFiles/22032021.dir/i.cpp.obj
+.PHONY : i.cpp.obj
 
-a.i: a.cpp.i
+i.i: i.cpp.i
 
-.PHONY : a.i
+.PHONY : i.i
 
 # target to preprocess a source file
-a.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\22032021.dir\build.make CMakeFiles/22032021.dir/a.cpp.i
-.PHONY : a.cpp.i
+i.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\22032021.dir\build.make CMakeFiles/22032021.dir/i.cpp.i
+.PHONY : i.cpp.i
 
-a.s: a.cpp.s
+i.s: i.cpp.s
 
-.PHONY : a.s
+.PHONY : i.s
 
 # target to generate assembly for a file
-a.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\22032021.dir\build.make CMakeFiles/22032021.dir/a.cpp.s
-.PHONY : a.cpp.s
+i.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\22032021.dir\build.make CMakeFiles/22032021.dir/i.cpp.s
+.PHONY : i.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 22032021
-	@echo ... a.obj
-	@echo ... a.i
-	@echo ... a.s
+	@echo ... i.obj
+	@echo ... i.i
+	@echo ... i.s
 .PHONY : help
 
 
